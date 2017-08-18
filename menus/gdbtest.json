@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle gdbtest",
+        "command": "gdbtest:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "gdbtest",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "gdbtest:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

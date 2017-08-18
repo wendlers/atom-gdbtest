@@ -1,0 +1,12 @@
+{
+  "target": "./test.elf",
+  "server": "gdbserver",
+  "serverArgs": [
+    ":4444"
+  ],
+  "client": "gdb",
+  "clientArgs": [],
+  "initCommands": [
+    "target remote :4444"
+  ]
+}
